@@ -12,10 +12,6 @@ const SIZES = {
 // SCENEEEEE
 const scene = new THREE.Scene();
 
-// OBJECTTT
-const geometry = new THREE.BoxGeometry(2, 2, 2);
-const mesh = new THREE.MeshLambertMaterial({ color: 0x008dd5 });
-
 // CAMERAAAA
 const camera = new THREE.PerspectiveCamera(75, SIZES.width / SIZES.height);
 camera.position.z = 5;
