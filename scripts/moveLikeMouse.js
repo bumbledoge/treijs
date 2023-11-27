@@ -32,6 +32,7 @@ scene.add(light, light1);
 const renderer = new THREE.WebGLRenderer({ canvas: CANVAS });
 renderer.setSize(SIZES.width, SIZES.height);
 renderer.render(scene, camera); // first render
+renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 
 // ON MOUSE MOVE
 let count = 0;
